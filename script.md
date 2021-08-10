@@ -12,9 +12,14 @@ Why TypeScript? In short, because the option of being able to use static typing 
 - Type-aware linting, e.g. promise handling
 - Better tooling around builtins and libraries
 
-heuristic-aligner for dynamically assigning interfaces from another interface
+See Demo2
 
-duck-typing
- - implementing an interface without explicitly implementing it
- - anonymous inline types
- - mocks without mocking framework
+TypeScript's type system is powerful and flexible, and probably a bit different than what you're used to with C-style languages
+- Structural vs nominal typing
+- Types derived from other types
+  - Partials
+  - Unions
+  - keyof
+  - Copied function type
+- Literal types
+- Function types

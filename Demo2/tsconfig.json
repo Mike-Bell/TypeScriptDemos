@@ -1,0 +1,8 @@
+{
+   "files": ["main.ts"],
+   "compilerOptions": {
+      "outDir": "dist",
+      "target": "ES2019",
+      "strict": true
+   }
+}
