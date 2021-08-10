@@ -1,5 +1,5 @@
 {
-   "include": ["**/*.ts"],
+   "include": ["*.ts"],
    "compilerOptions": {
       "outDir": "dist",
       "target": "ES2019",
