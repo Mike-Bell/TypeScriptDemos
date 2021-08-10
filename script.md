@@ -2,6 +2,8 @@ Quickly cover some basics about TypeScript, but then I want to quickly move on t
 
 What is TypeScript? If you look this up, the standard answer is that "TypeScript is a superset of JavaScript", or more simply TypeScript is JavaScript plus types. TypeScript _used to be_ a collection of "things we wish we had in JavaScript" - things like types, classes, arrow functions, better syntax, etc. I think it was kinda of like how C++ became sort of a grab bag for things people wish they had in C - TypeScript was a grab bag of JavaScript improvements. But eventually a lot of those things got absorbed into the JavaScript language itself, partly due to the influence of TypeScript on the ecosystem, so now I think it's fair to say that TypeScript is simply JavaScript plus types.
 
+TypeScript has been spreading rapidly for the last 5 years or so. At this point, it is fully battle-tested on projects of a variety of scales. It is the go-to at TechSmith for new projects, and is used in Audiate and well as the newer parts of Knowmia.
+
 See Section1
 
 Why TypeScript? In short, because the option of being able to use static typing is good.
