@@ -4,6 +4,14 @@ What is TypeScript? If you look this up, the standard answer is that "TypeScript
 
 See Demo1
 
+Why TypeScript? In short, because the option of being able to use static typing is good.
+- Simple type mismatches
+- Contract enforcement
+- Data model changes
+- Optional/null handling
+- Type-aware linting, e.g. promise handling
+- Better tooling around builtins and libraries
+
 heuristic-aligner for dynamically assigning interfaces from another interface
 
 duck-typing
