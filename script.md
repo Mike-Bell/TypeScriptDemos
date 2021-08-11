@@ -25,5 +25,6 @@ TypeScript's type system is powerful and flexible, and probably a bit different 
   - Copied function type
 - Function types
 - Literal union types instead of enums
+- Nominal types (including simple types) are... _kinda_ supported. Maybe they'll be better supported later...
 
 See Section3
