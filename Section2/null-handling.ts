@@ -1,8 +1,14 @@
 /*
 Optional/null handling
 */
+interface IDataReader {
+   read: () => number;
+}
+
 class DataService {
-   setDataReader(reader) {
+   dataReader?: IDataReader;
+
+   setDataReader(reader: IDataReader) {
       this.dataReader = reader;
    }
 

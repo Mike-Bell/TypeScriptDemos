@@ -2,7 +2,7 @@ void (async () => {
    /*
    Type-aware linting, e.g. promise handling
    */
-   const sleep = time => new Promise(resolve => setTimeout(resolve, time));
+   const sleep = (time: number): Promise<void> => new Promise(resolve => setTimeout(resolve, time));
 
    const doThing1 = async () => {
       await sleep(100);
