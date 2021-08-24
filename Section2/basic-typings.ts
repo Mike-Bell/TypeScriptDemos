@@ -5,6 +5,9 @@ const add = (a: number, b: number): number => a + b;
 const result1 = add(1, '1');
 console.log(result1); // '11'
 
+
+
+
 /*
 Contract enforcement
 */
@@ -23,6 +26,9 @@ const useReader = (reader: MyReader): void => {
 }
 
 useReader(new MyReader()); // TypeError: reader.read is not a function
+
+
+
 
 /*
 Data model changes
